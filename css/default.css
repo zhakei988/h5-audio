@@ -1,0 +1,91 @@
+﻿/*c:JakeChiu,160429*/
+
+/* audio------------------------------------------*/
+.hxaudio{	padding : 0	;border : 0;margin:0;font-family:"Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei",sans-serif; font-size:62.5%; overflow:hidden; height:32px ; background: #5D9CEC; width: 100%}
+.hxaudio .hxaudio-vealign-mid{display:table}
+.hxaudio .hxaudio-vealign-mid .hxaudio-vealign-box{display:table-cell;vertical-align:middle;}
+.hxaudio .hxaudio-left{ width:10%; background: #508DE0; height: 100%; float: left;}
+.hxaudio .hxaudio-left .hxaudio-l-ico{ width: 50%; height: 50%; margin:0 auto; overflow: hidden; }
+.hxaudio .hxaudio-left .hxaudio-l-ico i{
+    width: 0;
+    height: 0;
+    margin:0 auto;
+    display: block;
+}
+.hxaudio .hxaudio-left .hxaudio-l-ico i.hxaudio-play{
+	border-top: 5px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 5px solid transparent;
+}
+.hxaudio .hxaudio-left .hxaudio-l-ico i.hxaudio-stop{
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    height: 10px;
+    width: 20%
+}
+.hxaudio .hxaudio-rit{ width: 90% ;float: left; overflow: hidden; height: 100%}
+.hxaudio .hxaudio-rit .fl{float: left;}
+
+.hxaudio .hxaudio-r-box{ height: 50% }
+.hxaudio .hxaudio-rit .hxaudio-r-l,.hxaudio .hxaudio-rit .hxaudio-r-r{ color: #fff; width: 12%; text-align: center; padding-right: 4%}
+.hxaudio .hxaudio-rit .hxaudio-r-r{padding:0 0 0 4%}
+.hxaudio .hxaudio-rit .hxaudio-r-m{ width: 68%; height: 44%}
+
+.hxaudio .hxaudio-rit .hxaudio-r-m .hxaudio-line{height: 50%; border-bottom:2px #7AB1F4 solid;position:relative;}
+.hxaudio .hxaudio-rit .hxaudio-r-m .hxaudio-line-l{width:0px; position:absolute; border-bottom:2px #fff solid; left: 0; top: 100%;}
+.hxaudio .hxaudio-rit .hxaudio-r-m .hxaudio-line .hxaudio-r-ico{border-radius: 50%; width:14px; background: #FFF; height:14px; position: absolute; right:0; top:0; margin-top: -6px}
+
+
+.spinner {
+  margin: 0 auto;
+  width: 20px;
+  text-align: center;
+}
+ 
+.spinner > div {
+  width: 5px;
+  height: 5px;
+  background-color: #67CF22;
+ 
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+ 
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+@media only screen and (max-width:320px) 
+{/*iphone4*/
+	 
+}
+@media only screen and (max-width:320px) and (max-width:375px)
+{/*iphone5、iphone5c、iphone5s、iphone6、iphone6plus*/
+	 
+}
